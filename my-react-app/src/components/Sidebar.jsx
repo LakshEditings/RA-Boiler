@@ -6,7 +6,7 @@ import ArchiveIcon from '@mui/icons-material/Archive';
 const Sidebar = () => {
   return (
     <Drawer 
-      variant="permanent" 
+      variant="prmanent" 
       sx={{ 
         width: 240, 
         flexShrink: 0, 
