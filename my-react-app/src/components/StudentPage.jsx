@@ -1,22 +1,24 @@
 import React from 'react';
-import { Typography, Grid, TextField, Button } from '@mui/material';
 
 const StudentPage = () => {
   return (
-    <Grid container spacing={2} padding={2} sx={{ backgroundColor: '#d9d9d9', minHeight: '100vh' }}>
-      <Grid item xs={12}>
-        <Typography variant="h4">Student Attendance</Typography>
-      </Grid>
-      <Grid item xs={12} sm={6}> 
-        <TextField label="Select Date" type="date" sx={{ width: '81%' }} />
-      </Grid>
-      <Grid item xs={12}>
-        <TextField label="Enter OTP" sx={{ width: '40%' }} />
-      </Grid>
-      <Grid item xs={12}>
-        <Button variant="contained" sx={{ backgroundColor: '#697ba3' }}>Submit OTP</Button>
-      </Grid>
-    </Grid>
+    <div className="p-5 bg-gray-300 min-h-screen flex flex-col items-center">
+      <h2 className="text-2xl font-bold mb-5">Student Attendance</h2>
+
+      <div className="w-full max-w-sm mb-4">
+        <label className="block font-semibold mb-1">Select Date:</label>
+        <input type="date" className="w-full p-2 border border-gray-400 rounded-md text-lg" />
+      </div>
+
+      <div className="w-full max-w-sm mb-4">
+        <label className="block font-semibold mb-1">Enter OTP:</label>
+        <input type="text" className="w-full p-2 border border-gray-400 rounded-md text-lg" />
+      </div>
+
+      <button className="bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 transition">
+        Submit OTP
+      </button>
+    </div>
   );
 };
 

@@ -1,0 +1,42 @@
+.student-container {
+padding: 20px;
+background-color: #d9d9d9;
+min-height: 100vh;
+}
+
+.title {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.input-group {
+margin-bottom: 15px;
+}
+
+.input-group label {
+display: block;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+.input-group input {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+
+.submit-button {
+background-color: #697ba3;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+.submit-button:hover {
+background-color: #55678e;
+}
