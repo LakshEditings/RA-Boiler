@@ -8,10 +8,10 @@ const Header = () => {
     <AppBar position="static" style={{ backgroundColor: '#697ba3', height: 80 }}>
       <Toolbar>
         <img src={bitLogo} alt="BIT Logo" style={{ height: 40, marginRight: 10 }} />
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: '#3c2676' }}>
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: '#4c2676' }}>
           BIT CLASSROOM
         </Typography>
-        <IconButton color='#3c2676'>
+        <IconButton color='#4c2676'>
           <AccountCircle />
         </IconButton>
       </Toolbar>
